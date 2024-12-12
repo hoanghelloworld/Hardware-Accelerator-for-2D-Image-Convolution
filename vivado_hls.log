@@ -1,0 +1,70 @@
+INFO: [HLS 200-10] Running 'D:/Vivado/2018.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'huyho' on host 'maytinhcuahoang' (Windows NT_amd64 version 6.2) on Fri Dec 13 00:47:34 +0700 2024
+INFO: [HLS 200-10] In directory 'D:/Vivado/final_conv2d'
+INFO: [HLS 200-10] Opening project 'D:/Vivado/final_conv2d/final_conv2d'.
+INFO: [HLS 200-10] Opening solution 'D:/Vivado/final_conv2d/final_conv2d/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../test_conv.cpp in debug mode
+   Compiling ../../../../testutils.cpp in debug mode
+   Compiling ../../../../conv.cpp in debug mode
+   Generating csim.exe
+In file included from D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Vivado/2018.1/include/hls_fpo.h:172,
+                 from D:/Vivado/2018.1/include/hls_half.h:57,
+                 from D:/Vivado/2018.1/include/ap_int.h:74,
+                 from D:/Vivado/2018.1/include/ap_axi_sdata.h:86,
+                 from D:/Vivado/2018.1/include/hls/hls_axi_io.h:39,
+                 from D:/Vivado/2018.1/include/hls_video.h:48,
+                 from ../../../../conv.h:4,
+                 from ../../../../test_conv.cpp:2:
+D:/Vivado/2018.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+In file included from D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Vivado/2018.1/include/hls_fpo.h:172,
+                 from D:/Vivado/2018.1/include/hls_half.h:57,
+                 from D:/Vivado/2018.1/include/ap_int.h:74,
+                 from D:/Vivado/2018.1/include/ap_axi_sdata.h:86,
+                 from D:/Vivado/2018.1/include/hls/hls_axi_io.h:39,
+                 from D:/Vivado/2018.1/include/hls_video.h:48,
+                 from ../../../../conv.h:4,
+                 from ../../../../testutils.h:5,
+                 from ../../../../testutils.cpp:1:
+D:/Vivado/2018.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+In file included from D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Vivado/2018.1/include/hls_fpo.h:172,
+                 from D:/Vivado/2018.1/include/hls_half.h:57,
+                 from D:/Vivado/2018.1/include/ap_int.h:74,
+                 from D:/Vivado/2018.1/include/ap_axi_sdata.h:86,
+                 from D:/Vivado/2018.1/include/hls/hls_axi_io.h:39,
+                 from D:/Vivado/2018.1/include/hls_video.h:48,
+                 from ../../../../conv.h:4,
+                 from ../../../../conv.cpp:1:
+D:/Vivado/2018.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Vivado/2018.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+Calling Core function
+Core function ended
+Output Matrix:
+Result Core
+----------------------------------
+ROW: 00 --->   -007  -009  -006  -003  0017 
+ROW: 01 --->   0015  0000  0000  0000  0033 
+ROW: 02 --->   0030  0000  0000  0000  0048 
+ROW: 03 --->   0045  0000  0000  0000  0063 
+ROW: 04 --->   0113  0081  0084  0087  0137 
+
+Calling Reference function
+Reference function ended
+Ref Core
+----------------------------------
+ROW: 00 --->   -007  -009  -006  -003  0017 
+ROW: 01 --->   0015  0000  0000  0000  0033 
+ROW: 02 --->   0030  0000  0000  0000  0048 
+ROW: 03 --->   0045  0000  0000  0000  0063 
+ROW: 04 --->   0113  0081  0084  0087  0137 
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

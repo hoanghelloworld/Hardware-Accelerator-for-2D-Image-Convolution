@@ -1,0 +1,29 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../test_conv.cpp in debug mode
+   Compiling ../../../../testutils.cpp in debug mode
+   Compiling ../../../../conv.cpp in debug mode
+   Generating csim.exe
+Calling Core function
+Core function ended
+Output Matrix:
+Result Core
+----------------------------------
+ROW: 00 --->   -007  -009  -006  -003  0017 
+ROW: 01 --->   0015  0000  0000  0000  0033 
+ROW: 02 --->   0030  0000  0000  0000  0048 
+ROW: 03 --->   0045  0000  0000  0000  0063 
+ROW: 04 --->   0113  0081  0084  0087  0137 
+
+Calling Reference function
+Reference function ended
+Ref Core
+----------------------------------
+ROW: 00 --->   -007  -009  -006  -003  0017 
+ROW: 01 --->   0015  0000  0000  0000  0033 
+ROW: 02 --->   0030  0000  0000  0000  0048 
+ROW: 03 --->   0045  0000  0000  0000  0063 
+ROW: 04 --->   0113  0081  0084  0087  0137 
+
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

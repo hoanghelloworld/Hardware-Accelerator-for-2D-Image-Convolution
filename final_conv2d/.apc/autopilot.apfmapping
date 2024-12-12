@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="conv.cpp" path="D:\Vivado\final_conv2d\conv.cpp"/>
+    <originFiles name="conv.h" path="D:\Vivado\final_conv2d\conv.h"/>
+    <originFiles name="define.h" path="D:\Vivado\final_conv2d\define.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test_conv.cpp" path="D:\Vivado\final_conv2d\test_conv.cpp"/>
+    <originFiles name="testutils.cpp" path="D:\Vivado\final_conv2d\testutils.cpp"/>
+    <originFiles name="testutils.h" path="D:\Vivado\final_conv2d\testutils.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

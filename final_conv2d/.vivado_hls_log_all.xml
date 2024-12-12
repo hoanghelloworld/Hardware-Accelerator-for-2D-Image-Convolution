@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:31:08.244+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:28:23.182+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:26:43.223+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:24:32.998+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:24:03.089+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:20:43.708+0700"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="final_conv2d" solutionName="solution1" date="2024-12-13T00:16:00.559+0700"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
